@@ -89,7 +89,7 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
-               InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/vj_bots")
+               InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/movie_file_20")
                ],[
                InlineKeyboardButton(" 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton(" 𝙱𝙰𝙲𝙺", callback_data = "start")
