@@ -4,17 +4,17 @@
 
 class mr(object):
     PROGRESS_BAR = """\n
-╭━━━━❰ ZISHAN Bot Renaming... ❱━➣
+╭━━━━❰ VJ Bot Renaming... ❱━➣
 ┣⪼ 🗂️ : {1} | {2}
 ┣⪼ ⏳️ : {0}%
-┣⪼ 🚀 : {5}/s
+┣⪼ 🚀 : {3}/s
 ┣⪼ ⏱️ : {2}
 ╰━━━━━━━━━━━━━━━➣ """
 
     ABOUT_TXT = """
 ╭───────────⍟
 ├🤖 My Name is : {}
-├👑 CHANNEL : <a href=https://t.me/movie_file_20>VJ Bots</a> 
+├👑 CHANNEL : <a href=https://t.me/MAPOriginal>MAP</a> 
 ├📕 LIBRARY : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├✏️ LANGUAGE : <a href=https://www.python.org>Python 3</a>
 ├💾 DATABASE : <a href=https://cloud.mongodb.com>MongoDB</a>
@@ -34,8 +34,9 @@ class mr(object):
 •> /see_caption - see your custom caption
 •> /del_caption - delete custom caption
 
-Example:- /set_caption 📕 File Name:@movie_file_20 {filename}
- ⚡Size: {filesize}
+Example:- /set_caption 📕 File Name: {filename}
+💾 Size: {filesize}
+⏰ Duration: {duration}
 
 ✏️ <b><u>HOW TO RENAME A FILE</u></b>
 •> send any file and click rename option and type new file name and \n send select [ document, video, audio ]👈 choice this.
