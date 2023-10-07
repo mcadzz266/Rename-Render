@@ -8,7 +8,7 @@ class mr(object):
 ┣⪼ 🗂️ : {1} | {2}
 ┣⪼ ⏳️ : {0}%
 ┣⪼ 🚀 : {10}/s
-┣⪼ ⏱️ : {2}
+┣⪼ ⏱️ : {5}
 ╰━━━━━━━━━━━━━━━➣ """
 
     ABOUT_TXT = """
@@ -34,9 +34,8 @@ class mr(object):
 •> /see_caption - see your custom caption
 •> /del_caption - delete custom caption
 
-Example:- /set_caption 📕 File Name: {filename}
-💾 Size: {filesize}
-⏰ Duration: {duration}
+Example:- /set_caption 📕 File Name:@movie_file_20 {filename}
+ ⚡Size: {filesize}
 
 ✏️ <b><u>HOW TO RENAME A FILE</u></b>
 •> send any file and click rename option and type new file name and \n send select [ document, video, audio ]👈 choice this.
