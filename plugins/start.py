@@ -28,7 +28,7 @@ async def start(client, message):
         InlineKeyboardButton(' About', callback_data='about'),
         InlineKeyboardButton(' Help', callback_data='help')
         ],[
-        InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/VJ_Bots')
+        InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/movie_file_20')
         ]
         ])
     if START_PIC:
